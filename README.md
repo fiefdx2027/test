@@ -9,15 +9,12 @@ This is a Python repository designed for testing, development, and experimentati
 ## 📁 Project Structure
 
 ```
-test/
+test-project/
 ├── .gitignore          # Git ignore file for Python projects
-├── README.md           # This file
-├── src/                # Source code directory
-│   └── __init__.py
-├── tests/              # Unit tests
-│   └── __init__.py
-├── requirements.txt    # Python dependencies
-└── main.py             # Main application entry point
+├── README.md           # Project documentation
+├── main.py             # Main application entry point
+├── hello_world.py      # Hello World example script
+└── requirements.txt    # Python dependencies (optional)
 ```
 
 ## 🚀 Getting Started
@@ -25,7 +22,6 @@ test/
 ### Prerequisites
 
 - Python 3.7+
-- pip or poetry
 - Git
 
 ### Installation
@@ -33,24 +29,25 @@ test/
 1. Clone the repository:
    ```bash
    git clone https://github.com/fiefdx2027/test.git
-   cd test
+   cd test-project
    ```
 
-2. Create a virtual environment:
+2. Create a virtual environment (optional but recommended):
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ### Running the Application
 
+Run the main application:
 ```bash
 python main.py
+```
+
+Run the Hello World example:
+```bash
+python hello_world.py
 ```
 
 ## 🧪 Testing
@@ -64,25 +61,8 @@ pytest
 
 - Follow PEP 8 style guide
 - Write docstrings for all functions
-- Add type hints where appropriate
-- Include unit tests for new features
-- Keep dependencies minimal and up-to-date
-
-## 📦 Dependencies
-
-See `requirements.txt` for the list of required packages.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Keep code clean and well-documented
+- Feel free to modify and extend the code!
 
 ## 📞 Support
 
